@@ -55,7 +55,7 @@ function SignUp() {
                 <br /><br />
 
 
-                <button>Sign Up</button>
+                <button style={{border:"2px solid blue"}}>Sign Up</button>
             </div>
         </form>
     </>
