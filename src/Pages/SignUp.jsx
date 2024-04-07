@@ -33,18 +33,18 @@ function SignUp() {
         <form onSubmit={signupsubmithandler}>
             <div className="signuppage">
                 <label htmlFor="">Enter Your FirstName</label><br /><br />
-                <input style={{ border: "3px solid blue", fontSize: "20px", padding: "5px" }} name="firstname" onChange={signuphandler} value={firstname} type="text" placeholder="FirstName" />
+                <input style={{ border: "3px solid blue", fontSize: "20px", padding: "5px",borderRadius:"10px" }} name="firstname" onChange={signuphandler} value={firstname} type="text" placeholder="FirstName" />
                 <br /><br />
 
 
                 <label htmlFor="">Enter Your Lastname</label>
                 <br /><br />
-                <input style={{ border: "3px solid blue", fontSize: "20px", padding: "5px" }} name="lastname" onChange={signuphandler} value={lastname} type="text" placeholder="Lastname" />
+                <input style={{ border: "3px solid blue", fontSize: "20px", padding: "5px",borderRadius:"10px" }} name="lastname" onChange={signuphandler} value={lastname} type="text" placeholder="Lastname" />
                 <br /><br />
 
 
                 <label htmlFor="">Enter Your Email</label><br /><br />
-                <input style={{ border: "3px solid blue", fontSize: "20px", padding: "5px" }} name="email" onChange={signuphandler} value={email} type="text" placeholder="Email" />
+                <input style={{ border: "3px solid blue", fontSize: "20px", padding: "5px",borderRadius:"10px" }} name="email" onChange={signuphandler} value={email} type="text" placeholder="Email" />
                 <br /><br />
 
 

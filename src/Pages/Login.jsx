@@ -24,13 +24,13 @@ function Login() {
             <div className="loginpage">
                 <label htmlFor="">Enter Your Username</label>
                 <br /><br />
-                <input style={{border:"3px solid blue", fontSize:"20px",padding:"5px"}} name="username" value={username} onChange={Loginhandler} type="text" placeholder="username" />
+                <input style={{border:"3px solid blue", fontSize:"20px",padding:"5px",borderRadius:"10px"}} name="username" value={username} onChange={Loginhandler} type="text" placeholder="username" />
                 <br /><br />
 
 
                 <label htmlFor="">Enter Your Password</label>
                 <br /><br />
-                <input style={{border:"3px solid blue", fontSize:"20px",padding:"5px"}} name="password" value={password} onChange={Loginhandler} type="text" placeholder="password" />
+                <input style={{border:"3px solid blue", fontSize:"20px",padding:"5px",borderRadius:"10px"}} name="password" value={password} onChange={Loginhandler} type="text" placeholder="password" />
                 <br /><br />
 
                 <button style={{border:"2px solid blue"}}>LogIn</button>
